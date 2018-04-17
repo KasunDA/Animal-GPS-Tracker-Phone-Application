@@ -28,10 +28,12 @@ public class Map extends AppCompatActivity implements OnMapReadyCallback{
 
     @Override
     public void onMapReady(GoogleMap googleMap) {
-        //Add Marker & move map's camera
+        //Add Marker in Melbourne with Text Box
         LatLng melbourne = new LatLng(-37.814251, 144.963169);
         googleMap.addMarker(new MarkerOptions().position(melbourne)
         .title("Marker in Melbourne!"));
+
+        //Change camera to centre to Melbourne
         googleMap.moveCamera(CameraUpdateFactory.newLatLng(melbourne));
     }
 }

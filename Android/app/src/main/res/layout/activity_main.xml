@@ -21,6 +21,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:textSize="18sp"
             android:background="@color/buttonBackground"
             android:onClick="onClickMap"
             android:text="@string/btn_main_map" />
@@ -35,6 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:textSize="18sp"
             android:background="@color/buttonBackground"
             android:onClick="onClickSearch"
             android:text="@string/btn_main_search" />
@@ -49,6 +51,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:textSize="18sp"
             android:background="@color/buttonBackground"
             android:onClick="onClickAreas"
             android:text="@string/btn_main_areas" />
