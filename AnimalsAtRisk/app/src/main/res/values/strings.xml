@@ -1,0 +1,10 @@
+<resources>
+    <string name="google_maps_key">AIzaSyBVrRclOmhYnmNE_IBt0JTvkSWDFfHfIZs</string>
+    <string name="app_name">Monitor Animals at Risk</string>
+    <string name="map_name">Map</string>
+    <string name="search_name">Specific Animal Search</string>
+    <string name="areas_name">Defined Areas List</string>
+    <string name="btn_main_map">Map</string>
+    <string name="btn_main_search">Animal Search</string>
+    <string name="btn_main_areas">Define Areas</string>
+</resources>
