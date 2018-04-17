@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1907359502/EEET2422 Mobile Computing-Animal-GPS-Tracker-Phone-Application.iml" filepath="$PROJECT_DIR$/.idea/modules/1907359502/EEET2422 Mobile Computing-Animal-GPS-Tracker-Phone-Application.iml" />
+      <module fileurl="file:///run/media/alexander/F4423E69423E30AA/Users/Alexander/Documents/University/2018/Semester 1/EEET2422 Mobile Computing/Animal-GPS-Tracker-Phone-Application/Animal-GPS-Tracker-Phone-Application.iml" filepath="/run/media/alexander/F4423E69423E30AA/Users/Alexander/Documents/University/2018/Semester 1/EEET2422 Mobile Computing/Animal-GPS-Tracker-Phone-Application/Animal-GPS-Tracker-Phone-Application.iml" />
+      <module fileurl="file:///run/media/alexander/F4423E69423E30AA/Users/Alexander/Documents/University/2018/Semester 1/EEET2422 Mobile Computing/Animal-GPS-Tracker-Phone-Application/app/app.iml" filepath="/run/media/alexander/F4423E69423E30AA/Users/Alexander/Documents/University/2018/Semester 1/EEET2422 Mobile Computing/Animal-GPS-Tracker-Phone-Application/app/app.iml" />
     </modules>
   </component>
 </project>
