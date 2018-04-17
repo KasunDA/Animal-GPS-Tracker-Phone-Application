@@ -1,10 +1,28 @@
 <resources>
+
+    <!-- Application API Key used for google maps. -->
     <string name="google_maps_key">AIzaSyBVrRclOmhYnmNE_IBt0JTvkSWDFfHfIZs</string>
+
+    <!-- Main Menu Toolbar Title -->
     <string name="app_name">Monitor Animals at Risk</string>
+
+        <!-- Main Menu Button Strings -->
+        <string name="btn_main_map">Map</string>
+        <string name="btn_main_search">Animal Search</string>
+        <string name="btn_main_areas">Define Areas</string>
+
+    <!-- Map Activity Toolbar Title -->
     <string name="map_name">Map</string>
+
+    <!-- Animal Search Activity Toolbar Title -->
     <string name="search_name">Specific Animal Search</string>
+
+    <!-- Area List Activity Toolbar Title -->
     <string name="areas_name">Defined Areas List</string>
-    <string name="btn_main_map">Map</string>
-    <string name="btn_main_search">Animal Search</string>
-    <string name="btn_main_areas">Define Areas</string>
+
+        <!-- Define Areas child activity -->
+
+        <!-- Area Name textView Placeholder-->
+        <string name="area_name">Area Name (Placeholder)</string>
+
 </resources>

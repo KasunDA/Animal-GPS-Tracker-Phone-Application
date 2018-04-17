@@ -8,16 +8,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <meta-data
             android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version"
-        />
-
+            android:value="@integer/google_play_services_version" />
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_maps_key"
-        />
+            android:value="@string/google_maps_key" />
 
         <activity
             android:name=".Main"
@@ -28,19 +24,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".Map"
             android:label="@string/map_name" />
-
         <activity
             android:name=".Search"
-            android:label="@string/search_name"></activity>
-
+            android:label="@string/search_name" />
         <activity
             android:name=".Areas"
-            android:label="@string/areas_name">
-            </activity>
+            android:label="@string/areas_name" />
+        <activity android:name=".areas_define" />
+        <activity android:name=".areasDefine"></activity>
     </application>
 
 </manifest>

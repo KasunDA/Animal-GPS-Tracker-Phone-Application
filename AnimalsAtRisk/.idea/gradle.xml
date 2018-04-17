@@ -7,8 +7,8 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
+            <option value="/run/media/alexander/F4423E69423E30AA/Users/Alexander/Documents/University/2018/Semester 1/EEET2422 Mobile Computing/Major Project/Animal-GPS-Tracker-Phone-Application/AnimalsAtRisk" />
+            <option value="/run/media/alexander/F4423E69423E30AA/Users/Alexander/Documents/University/2018/Semester 1/EEET2422 Mobile Computing/Major Project/Animal-GPS-Tracker-Phone-Application/AnimalsAtRisk/app" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
