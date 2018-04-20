@@ -34,7 +34,6 @@
             android:name=".Areas"
             android:label="@string/areas_name" />
         <activity android:name=".areas_define" />
-        <activity android:name=".areasDefine"></activity>
     </application>
 
 </manifest>
