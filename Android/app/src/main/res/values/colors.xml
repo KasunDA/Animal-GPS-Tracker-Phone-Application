@@ -6,4 +6,15 @@
     <color name="buttonBackground">#ffffff</color>
     <color name="buttonShadow">#000000</color>
     <color name="menuBackground">#e9e9e9</color>
+
+    <!-- Pinned Section List Activity Colours -->
+    <color name="red_section">#ffff4444</color>
+    <color name="red_highlight">#fdc8c8</color>
+    <color name="green_section">#ff99cc00</color>
+    <color name="green_highlight">#efffbf</color>
+    <color name="orange_section">#ffffbb33</color>
+    <color name="orange_highlight">#ffe7b6</color>
+    <color name="blue_section">#ff33b5e5</color>
+    <color name="blue_highlight">#cbf1ff</color>
+
 </resources>

@@ -21,13 +21,13 @@ public class Main extends AppCompatActivity {
 
     public void onClickSearch(View view)
     {
-        Intent searchActivity = new Intent(Main.this, Search.class);
+        Intent searchActivity = new Intent(Main.this, SearchAnimalListActivity.class);
         startActivity(searchActivity);
     }
 
     public void onClickAreas(View view)
     {
-        Intent areasActivity = new Intent(Main.this, Areas.class);
+        Intent areasActivity = new Intent(Main.this, SearchAreasListActivity.class);
         startActivity(areasActivity);
     }
 
