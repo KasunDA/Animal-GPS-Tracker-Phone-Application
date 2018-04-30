@@ -1,5 +1,14 @@
 Google Map Tutorial:
+Copyright (C) 2018 by Google
+Apache v2.0
+https://developers.google.com/maps/documentation/android-api/start
 
+Pinned Section ListView:
+Copyright (C) 2013-2016 by Sergej Shafarenka, halfbit.de
+Apache v2.0
+https://github.com/beworker/pinned-section-listview
 
-RecyclerView Tutorial:
-https://developer.android.com/guide/topics/ui/layout/recyclerview.html
+AndroidUDPUtil:
+Copyright(C) 2016 by GitHub user selankon
+GNU GPL v3.0
+https://github.com/selankon/AndroidUDPUtil
