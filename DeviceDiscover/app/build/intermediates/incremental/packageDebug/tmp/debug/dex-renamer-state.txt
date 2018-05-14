@@ -1,0 +1,4 @@
+#Sat May 12 18:14:36 AEST 2018
+base.0=/run/media/alexander/F4423E69423E30AA/Users/Alexander/Documents/University/2018/Semester 1/EEET2422 Mobile Computing/Animal-GPS-Tracker-Phone-Application/DeviceDiscover/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

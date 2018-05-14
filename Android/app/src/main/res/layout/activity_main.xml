@@ -55,5 +55,19 @@
             android:background="@color/buttonBackground"
             android:onClick="onClickAreas"
             android:text="@string/btn_main_areas" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btnUDP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/buttonBackground"
+            android:onClick="onClickUDP"
+            android:text="UDP Test Menu" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

@@ -31,4 +31,10 @@ public class Main extends AppCompatActivity {
         startActivity(areasActivity);
     }
 
+    public void onClickUDP(View view)
+    {
+        Intent UDPActivity = new Intent(Main.this, UDPTester.class);
+        startActivity(UDPActivity);
+    }
+
 }

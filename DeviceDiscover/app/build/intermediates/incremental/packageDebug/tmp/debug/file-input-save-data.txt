@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sat May 12 18:14:36 AEST 2018
+0.baseType=DIRECTORY
+0.base=/run/media/alexander/F4423E69423E30AA/Users/Alexander/Documents/University/2018/Semester 1/EEET2422 Mobile Computing/Animal-GPS-Tracker-Phone-Application/DeviceDiscover/app/build/intermediates/transforms/dexMerger/debug/0
+0.path=classes.dex
+0.set=DEX
+count=1

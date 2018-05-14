@@ -1,0 +1,65 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE IF NOT EXISTS "e_animal" (
+    "animal_ID" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+    "animal_type" TEXT NOT NULL,
+    "animal_name" TEXT NOT NULL,
+    "animal_age" INTEGER NOT NULL
+);
+INSERT INTO e_animal VALUES(1,'cow','Daisy',8);
+INSERT INTO e_animal VALUES(2,'cow','Angus',12);
+INSERT INTO e_animal VALUES(3,'sheep','Wooly',3);
+INSERT INTO e_animal VALUES(4,'pig','Wilbur',3);
+CREATE TABLE e_location (
+    "location_ID" INTEGER NOT NULL,
+    "gps_x" REAL NOT NULL,
+    "gps_y" REAL NOT NULL
+);
+INSERT INTO e_location VALUES(1,144.9631689999999935,-37.814250999999998725);
+CREATE TABLE IF NOT EXISTS "e_zone" (
+    "zone_ID" INTEGER PRIMARY KEY NOT NULL,
+    "zone_name" TEXT NOT NULL,
+    "zone_description" TEXT
+);
+INSERT INTO e_zone VALUES(1,'paddock_1_water','drinking trough in paddock 1');
+INSERT INTO e_zone VALUES(2,'paddock_2_water','drinking trough in paddock 2');
+INSERT INTO e_zone VALUES(3,'paddock_1_food','eating trough in paddock 1');
+CREATE TABLE IF NOT EXISTS "e_zone_type" (
+    "zone_type" TEXT NOT NULL,
+    "zone_type_name" TEXT
+);
+INSERT INTO e_zone_type VALUES('Water','Where animals go to get water');
+INSERT INTO e_zone_type VALUES('Food','Where animals go to get food');
+INSERT INTO e_zone_type VALUES('Shelter','Where animals go to get shelter from the weather');
+INSERT INTO e_zone_type VALUES('Shade','Where animals can get some shade from the sun and heat');
+CREATE TABLE IF NOT EXISTS "e_medical_issue" (
+    "medical_issue" TEXT NOT NULL,
+    "medical_description" TEXT
+);
+INSERT INTO e_medical_issue VALUES('Pregnancy','Animal is pregnant');
+INSERT INTO e_medical_issue VALUES('Lame','Animal can''t move');
+CREATE TABLE r_animal_seen_in (
+    "time" INTEGER NOT NULL,
+    "animal_ID" INTEGER NOT NULL,
+    "location_ID" INTEGER NOT NULL
+);
+INSERT INTO r_animal_seen_in VALUES(1526294609,1,1);
+CREATE TABLE r_animal_has_had (
+    "animal_ID" INTEGER NOT NULL,
+    "medical_issue" INTEGER
+, "issue_description" TEXT);
+INSERT INTO r_animal_has_had VALUES(1,'Pregnancy','Daisy gave birth 15/05/2018');
+CREATE TABLE r_zone_is_a (
+    "zone_ID" INTEGER,
+    "zone_type" TEXT
+);
+INSERT INTO r_zone_is_a VALUES(1,'Water');
+INSERT INTO r_zone_is_a VALUES(2,'Water');
+INSERT INTO r_zone_is_a VALUES(3,'Food');
+CREATE TABLE r_location_is_in (
+    "location_ID" INTEGER,
+    "zone_ID" INTEGER
+);
+DELETE FROM sqlite_sequence;
+INSERT INTO sqlite_sequence VALUES('e_animal',4);
+COMMIT;

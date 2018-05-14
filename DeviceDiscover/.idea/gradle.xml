@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="/run/media/alexander/F4423E69423E30AA/Users/Alexander/Documents/University/2018/Semester 1/EEET2422 Mobile Computing/Animal-GPS-Tracker-Phone-Application/DeviceDiscover" />
+            <option value="/run/media/alexander/F4423E69423E30AA/Users/Alexander/Documents/University/2018/Semester 1/EEET2422 Mobile Computing/Animal-GPS-Tracker-Phone-Application/DeviceDiscover/app" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

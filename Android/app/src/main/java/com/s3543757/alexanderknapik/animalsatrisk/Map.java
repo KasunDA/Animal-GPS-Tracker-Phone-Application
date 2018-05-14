@@ -14,6 +14,8 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+//import com.s3543757.alexanderknapik.animalsatrisk.udpLibrary.UDPUtils;
+
 public class Map extends AppCompatActivity implements OnMapReadyCallback{
 
     @Override

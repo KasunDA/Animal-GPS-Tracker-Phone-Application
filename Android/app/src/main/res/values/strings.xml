@@ -6,10 +6,10 @@
     <!-- Main Menu Toolbar Title -->
     <string name="app_name">Monitor Animals at Risk</string>
 
-        <!-- Main Menu Button Strings -->
-        <string name="btn_main_map">Map</string>
-        <string name="btn_main_search">Animal Search</string>
-        <string name="btn_main_areas">Define Areas</string>
+    <!-- Main Menu Button Strings -->
+    <string name="btn_main_map">Map</string>
+    <string name="btn_main_search">Animal Search</string>
+    <string name="btn_main_areas">Define Areas</string>
 
     <!-- Map Activity Toolbar Title -->
     <string name="map_name">Map</string>
@@ -20,10 +20,10 @@
     <!-- Area List Activity Toolbar Title -->
     <string name="areas_name">Defined Areas List</string>
 
-        <!-- Define Areas child activity -->
+    <!-- Define Areas child activity -->
 
-        <!-- Area Name textView Placeholder-->
-        <string name="area_name">Area Name (Placeholder)</string>
+    <!-- Area Name textView Placeholder-->
+    <string name="area_name">Area Name (Placeholder)</string>
 
     <!-- Pinned Section List -->
     <string name="action_fastscroll">Fast scroll</string>

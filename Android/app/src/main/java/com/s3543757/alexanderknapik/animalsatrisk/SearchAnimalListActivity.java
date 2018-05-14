@@ -41,29 +41,39 @@ public class SearchAnimalListActivity extends ListActivity implements View.OnCli
 
         public SimpleAdapter(Context context, int resource, int textViewResourceId) {
             super(context, resource, textViewResourceId);
-            generateDataset('A', 'Z', false);
+            generateDataset(false);
         }
 
         //Generate test data for the list.
-        //Replace this with information from a databse.
-        public void generateDataset(char from, char to, boolean clear) {
+        //Replace this with information from a database.
+        public void generateDataset(boolean clear) {
 
+            //If clear flag was set in generateDataset, clear the list.
             if (clear) clear();
 
-            final int sectionsNumber = to - from + 1;
+            //String name pinned list test
+            String[] paddocks = new String[10];
+            paddocks[0] = "Paddock Alpha";
+            paddocks[1] = "Paddock Gamma";
+            paddocks[2] = "Paddock Zulu";
+
+            //sectionsNumber is the number of pinned sections.
+            //This would be the number of tuples in e_paddock table.
+            final int sectionsNumber = paddocks.length;
             prepareSections(sectionsNumber);
 
             int sectionPosition = 0, listPosition = 0;
             for (char i=0; i<sectionsNumber; i++) {
-                Item section = new Item(Item.SECTION, String.valueOf((char)('A' + i)));
+                Item section = new Item( Item.SECTION, String.valueOf(paddocks[i]) );
                 section.sectionPosition = sectionPosition;
                 section.listPosition = listPosition++;
                 onSectionAdded(section, sectionPosition);
                 add(section);
 
-                final int itemsNumber = (int) Math.abs((Math.cos(2f*Math.PI/3f * sectionsNumber / (i+1f)) * 25f));
+                final int itemsNumber = 10;
                 for (int j=0;j<itemsNumber;j++) {
-                    Item item = new Item(Item.ITEM, section.text.toUpperCase(Locale.ENGLISH) + " - " + j);
+                    //Item item = new Item(Item.ITEM, section.text.toUpperCase(Locale.ENGLISH) + " - " + j);
+                    Item item = new Item(Item.ITEM, "test" + j);
                     item.sectionPosition = sectionPosition;
                     item.listPosition = listPosition++;
                     add(item);
@@ -241,6 +251,7 @@ public class SearchAnimalListActivity extends ListActivity implements View.OnCli
     }
 
     private void updateDataset() {
+        /*
         mDatasetUpdateCount++;
         SimpleAdapter adapter = (SimpleAdapter) getListAdapter();
         switch (mDatasetUpdateCount % 4) {
@@ -250,6 +261,7 @@ public class SearchAnimalListActivity extends ListActivity implements View.OnCli
             case 3: adapter.generateDataset('A', 'Z', true); break;
         }
         adapter.notifyDataSetChanged();
+        */
     }
 
     private void initializePadding() {
@@ -294,6 +306,6 @@ public class SearchAnimalListActivity extends ListActivity implements View.OnCli
 
     @Override
     public void onClick(View v) {
-        Toast.makeText(this, "Item: " + v.getTag(), Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this, "Item: " + v.getTag(), Toast.LENGTH_SHORT).show();
     }
 }

@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "/run/media/alexander/F4423E69423E30AA/Users/Alexander/Documents/University/2018/Semester 1/EEET2422 Mobile Computing/Animal-GPS-Tracker-Phone-Application/DeviceDiscover/app/build/intermediates/res/merged/debug/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/run/media/alexander/F4423E69423E30AA/Users/Alexander/Documents/University/2018/Semester 1/EEET2422 Mobile Computing/Animal-GPS-Tracker-Phone-Application/DeviceDiscover/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "17,69,124,175",
+                        "endColumns": "51,54,50,62",
+                        "endOffsets": "64,119,170,233"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,107,162,213",
+                        "endColumns": "51,54,50,62",
+                        "endOffsets": "102,157,208,271"
+                    }
+                },
+                {
+                    "source": "/run/media/alexander/F4423E69423E30AA/Users/Alexander/Documents/University/2018/Semester 1/EEET2422 Mobile Computing/Animal-GPS-Tracker-Phone-Application/DeviceDiscover/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "58",
+                        "endOffsets": "71"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "276",
+                        "endColumns": "57",
+                        "endOffsets": "329"
+                    }
+                }
+            ]
+        }
+    ]
+}

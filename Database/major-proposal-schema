@@ -1,0 +1,42 @@
+CREATE TABLE "e_animal" (
+    "animal_ID" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+    "animal_type" TEXT NOT NULL,
+    "animal_name" TEXT NOT NULL,
+    "animal_age" INTEGER NOT NULL
+);
+CREATE TABLE sqlite_sequence(name,seq);
+CREATE TABLE e_location (
+    "location_ID" INTEGER NOT NULL,
+    "gps_x" REAL NOT NULL,
+    "gps_y" REAL NOT NULL
+);
+CREATE TABLE "e_zone" (
+    "zone_ID" INTEGER PRIMARY KEY NOT NULL,
+    "zone_name" TEXT NOT NULL,
+    "zone_description" TEXT
+);
+CREATE TABLE "e_zone_type" (
+    "zone_type" TEXT NOT NULL,
+    "zone_type_name" TEXT
+);
+CREATE TABLE "e_medical_issue" (
+    "medical_issue" TEXT NOT NULL,
+    "medical_description" TEXT
+);
+CREATE TABLE r_animal_seen_in (
+    "time" INTEGER NOT NULL,
+    "animal_ID" INTEGER NOT NULL,
+    "location_ID" INTEGER NOT NULL
+);
+CREATE TABLE r_animal_has_had (
+    "animal_ID" INTEGER NOT NULL,
+    "medical_issue" INTEGER
+, "issue_description" TEXT);
+CREATE TABLE r_zone_is_a (
+    "zone_ID" INTEGER,
+    "zone_type" TEXT
+);
+CREATE TABLE r_location_is_in (
+    "location_ID" INTEGER,
+    "zone_ID" INTEGER
+);
